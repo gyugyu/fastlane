@@ -58,7 +58,7 @@ Gem::Specification.new do |spec|
   spec.add_dependency 'faraday_middleware', '~> 0.9' # same as faraday
 
   # Lock `activesupport` (transitive depedency via `xcodeproj`) to keep supporting system ruby
-  spec.add_dependency 'activesupport', '< 5'
+  spec.add_dependency 'activesupport'
 
   # Development only
   spec.add_development_dependency 'rake', '< 12'
